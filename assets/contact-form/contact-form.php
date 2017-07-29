@@ -1,133 +1,96 @@
 <?php
 
-if(isset($_POST['email'])) {
-
-
-
-    // ADD YOUR EMAIL WHERE YOU WANT TO RECIEVE THE MESSAGES
-
-    $email_to = "jguntur@u.rochester.edu";
-
-    $email_subject = "Definity - Contact Form";
-
-
-
-     
-
-    function died($error) {
-
-        // your error code can go here
-
-        echo '<div class="alert alert-danger alert-dismissible wow fadeInUp" role="alert">
-          <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <strong>Something is wrong:</strong><br>';
-
-        echo $error."<br />";
-
-        echo '</div>';
-
-        die();
-
-    }
-
-
-
-    // validation expected data exists
-
-    if(!isset($_POST['name']) ||
-
-        !isset($_POST['email']) ||
-
-        // !isset($_POST['phone']) || // un-commet for required
-
-        !isset($_POST['message'])) {
-
-        died('We are sorry, but there appears to be a problem with the form you submitted.');
-
-    }
-
-
-
-    $name = $_POST['name']; // required
-
-    $email_from = $_POST['email']; // required
-
-    $telephone = $_POST['phone']; // not required
-
-    $message = $_POST['message']; // required
-
-
-
-    $error_message = "";
-
-    $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/';
-
-  if(!preg_match($email_exp,$email_from)) {
-
-    $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
-
-  }
-
-    $string_exp = "/^[A-Za-z .'-]+$/";
-
-  if(!preg_match($string_exp,$name)) {
-
-    $error_message .= 'The First Name you entered does not appear to be valid.<br />';
-
-  }
-
-  if(strlen($message) < 2) {
-
-    $error_message .= 'The message you entered do not appear to be valid.<br />';
-
-  }
-
-  if(strlen($error_message) > 0) {
-
-    died($error_message);
-
-  }
-
-    $email_message = "Form details below.\n\n";
-
-
-
-    function clean_string($string) {
-
-      $bad = array("content-type","bcc:","to:","cc:","href");
-
-      return str_replace($bad,"",$string);
-
-    }
-
-
-
-    $email_message .= "Name: ".clean_string($name)."\n";
-
-    $email_message .= "Email: ".clean_string($email_from)."\n";
-
-    $email_message .= "Telephone: ".clean_string($telephone)."\n";
-
-    $email_message .= "Message: ".clean_string($message)."\n";
-
-
-
-
-
-// create email headers
-
-$headers = 'From: '.$email_from."\r\n".
-
-'Reply-To: '.$email_from."\r\n" .
-
-'X-Mailer: PHP/' . phpversion();
-
-@mail($email_to, $email_subject, $email_message, $headers);
- ?>
-
- <div class="alert alert-success alert-dismissible wow fadeInUp" role="alert">
-   <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-   Your message has been sent.
- </div>
-
- <?php } ?>
+require_once('../include/phpmailer/PHPMailerAutoload.php');
+
+$toemails = array();
+
+$toemails[] = array(
+	'email' => 'jguntur@u.rochester.edu', // Your Email Address
+	'name' => 'Jordy-Guntur' // Your Name
+);
+
+// Form Processing Messages
+$message_success = 'Success! Your message was sent.';
+$mail = new PHPMailer(true);
+
+// If you intend you use SMTP, add your SMTP Code after this Line
+$mail->IsSMTP();
+$mail->Host = 'smtp.gmail.com';
+$mail->SMTPSecure = 'tls';
+$mail->SMTPAuth = true;
+$mail->Port = 587;
+$mail->Username = 'sportstrata.contact@gmail.com';
+$mail->Password = 'Zangetsu1!';
+
+echo $mail->ErrorInfo;
+
+if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
+	if( $_POST['quick-contact-form-email'] != '' ) {
+
+		$name = $_POST['quick-contact-form-name'];
+		$email = $_POST['quick-contact-form-email'];
+		$message = $_POST['quick-contact-form-message'];
+		$phone = $_POST['quick-contact-form-phone'];
+
+		$subject = 'Message from jordyguntur.com - ' . $name;
+
+		$botcheck = $_POST['quick-contact-form-botcheck'];
+
+		if( $botcheck == '' ) {
+
+			$mail->SetFrom( $email , $name );
+			$mail->AddReplyTo( $email , $name );
+			foreach( $toemails as $toemail ) {
+				$mail->AddAddress( $toemail['email'] , $toemail['name'] );
+			}
+			$mail->Subject = $subject;
+
+			$name = isset($name) ? "From: $name<br>" : '';
+			$email = isset($email) ? "Email: $email<br>" : '';
+			$phone = isset($phone) ? "Phone: $phone<br><br>" : '';
+			$message = isset($message) ? "Message Body:<br> $message<br>" : '';
+
+			$referrer = $_SERVER['HTTP_REFERER'] ? '<br><br><br>This e-mail was sent from a contact form on JordyGuntur: ' . $_SERVER['HTTP_REFERER'] : '';
+
+			$body = "$name $email $phone $message $referrer";
+
+			// Runs only when reCaptcha is present in the Contact Form
+			if( isset( $_POST['g-recaptcha-response'] ) ) {
+				$recaptcha_response = $_POST['g-recaptcha-response'];
+				$response = file_get_contents( "https://www.google.com/recaptcha/api/siteverify?secret=" . $recaptcha_secret . "&response=" . $recaptcha_response );
+
+				$g_response = json_decode( $response );
+
+				if ( $g_response->success !== true ) {
+					echo '{ "alert": "error", "message": "Captcha not Validated! Please Try Again." }';
+					die;
+				}
+			}
+
+			// Uncomment the following Lines of Code if you want to Force reCaptcha Validation
+
+			// if( !isset( $_POST['g-recaptcha-response'] ) ) {
+			// 	echo '{ "alert": "error", "message": "Captcha not Submitted! Please Try Again." }';
+			// 	die;
+			// }
+
+			$mail->MsgHTML( $body );
+			$sendEmail = $mail->Send();
+			header('Location: ../../contact.php?success=true');
+
+			if( $sendEmail == true ):
+				echo '{ "alert": "success", "message": "' . $message_success . '" }';
+			else:
+				echo '{ "alert": "error", "message": "Email <strong>could not</strong> be sent due to some Unexpected Error. Please Try Again later.<br /><br /><strong>Reason:</strong><br />' . $mail->ErrorInfo . '" }';
+			endif;
+		} else {
+			echo '{ "alert": "error", "message": "Bot <strong>Detected</strong>.! Clean yourself Botster.!" }';
+		}
+	} else {
+		echo '{ "alert": "error", "message": "Please <strong>Fill up</strong> all the Fields and Try Again." }';
+	}
+} else {
+	echo '{ "alert": "error", "message": "An <strong>unexpected error</strong> occured. Please Try Again later." }';
+}
+
+?>

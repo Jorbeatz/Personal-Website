@@ -64,29 +64,29 @@
               </header>
 
               <!-- Item 1 -->
-              <div class="col-lg-4 col-md-6 mb-sm-50 text-center">
+              <div class="col-lg-4 col-md-6 mb-sm-50">
                 <div class="ft-item wow fadeInUp" data-wow-duration="1s" style="min-height: 440px;">
                   <span class="linea-basic-pencil-ruler"></span>
                   <h4>Mobile & Web Design</h4>
-                  <p class="text-justify">Design storyboards, build mockups, and sketch wireframes. Concept and incorporate a brand's visual identity into features. </p>
+                  <p>Design storyboards, build mockups, and sketch wireframes. Concept and incorporate a brand's visual identity into features. </p>
                 </div>
               </div>
 
               <!-- Item 2 -->
-              <div class="col-lg-4 col-md-6 mb-sm-50 text-center">
+              <div class="col-lg-4 col-md-6 mb-sm-50">
                 <div class="ft-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" style="min-height: 440px;">
                   <span class="linea-basic-gear"></span>
                   <h4>Website Development</h4>
-                  <p class="text-justify">Convert the site design into a responsive, search engine and mobile-friendly website. Build features such as e-commerce, custom CMS, and subscription forms.</p>
+                  <p>Convert the site design into a responsive, search engine and mobile-friendly website. Build features such as e-commerce, custom CMS, and subscription forms.</p>
                 </div>
               </div>
 
               <!-- Item 3 -->
-              <div class="col-lg-4 col-md-6 mb-sm-50 text-center">
+              <div class="col-lg-4 col-md-6 mb-sm-50">
                 <div class="ft-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s" style="min-height: 440px;">
                   <span class="et-linegraph"></span>
                   <h4>SEO</h4>
-                  <p class="text-justify">Optimize metadata and images, research keywords, improve page/domain authority and SEO rankings. Track site traffic and provide monthly SEO progress reports. </p>
+                  <p>Optimize metadata and images, research keywords, improve page/domain authority and SEO rankings. Track site traffic and provide monthly SEO progress reports. </p>
                 </div>
               </div>
 
@@ -94,7 +94,138 @@
           </section>
         </div><!-- / .gray-bg -->
 
+        <!-- ========== Portfolio ========== -->
 
+        <section id="portfolio" class="container-fluid portfolio-layout portfolio-columns-fw">
+          <div class="row">
+            <header class="sec-heading">
+              <h2>Featured Projects</h2>
+              <span class="subheading">See some of the work I've done</span>
+            </header>
+
+          <!-- Filters -->
+          <div class="row">
+            <ul id="pfolio-filters" class="portfolio-filters">
+              <li class="active"><a href="#" data-filter="*">All</a></li>
+              <li><a href="#" data-filter=".web">Websites</a></li>
+              <li><a href="#" data-filter=".design">Design</a></li>
+            </ul>
+          </div>
+
+          <div class="row">
+            <div id="pfolio">
+
+              <div class="col-md-4 portfolio-item hover-bottom web">
+                <figure>
+                  <img src="assets/images/portfolio-ss.png" alt="SportStrata">
+                  <figcaption>
+                    <h4 class="hover-heading">SportStrata</h4>
+                    <ul class="hover-btns">
+                      <li><a class="open-gallery" href="assets/images/portfolio-ss.png"><i class="fa fa-arrows-alt"></i></a></li>
+                      <li><a href="portfolio-ss.php"><i class="fa fa-share"></i></a></li>
+                    </ul>
+                  </figcaption>
+                </figure>
+              </div><!-- / .portfolio-item -->
+
+              <div class="col-md-4 portfolio-item hover-bottom web">
+                <figure>
+                  <img src="assets/images/portfolio-gc.png" alt="Guntur Cabinetry">
+                  <figcaption>
+                    <h4 class="hover-heading">Guntur Cabinetry</h4>
+                    <ul class="hover-btns">
+                      <li><a class="open-gallery" href="assets/images/portfolio-gc.png"><i class="fa fa-arrows-alt"></i></a></li>
+                      <li><a href="portfolio-gc.php"><i class="fa fa-share"></i></a></li>
+                    </ul>
+                  </figcaption>
+                </figure>
+              </div><!-- / .portfolio-item -->
+
+              <div class="col-md-4 portfolio-item hover-bottom design">
+                <figure>
+                  <img src="assets/images/portfolio-spi.png" alt="Songbox App Design">
+                  <figcaption>
+                    <h4 class="hover-heading">SongBox Design</h4>
+                    <ul class="hover-btns">
+                      <li><a class="open-gallery" href="assets/images/portfolio-spi.png"><i class="fa fa-arrows-alt"></i></a></li>
+                      <li><a href="portfolio-sb.php"><i class="fa fa-share"></i></a></li>
+                    </ul>
+                  </figcaption>
+                </figure>
+              </div><!-- / .portfolio-item -->
+
+              <div class="col-md-4 portfolio-item hover-bottom web">
+                <figure>
+                  <img src="assets/images/portfolio-sa.png" alt="University of Rochester - Student's Association">
+                  <figcaption>
+                    <h4 class="hover-heading">Student's Association</h4>
+                    <ul class="hover-btns">
+                      <li><a class="open-gallery" href="assets/images/portfolio-sa.png"><i class="fa fa-arrows-alt"></i></a></li>
+                      <li><a href="portfolio-sa.php"><i class="fa fa-share"></i></a></li>
+                    </ul>
+                  </figcaption>
+                </figure>
+              </div><!-- / .portfolio-item -->
+
+              <div class="col-md-4 portfolio-item hover-bottom web">
+                <figure>
+                  <img src="assets/images/portfolio-hm.png" alt="HiveMind">
+                  <figcaption>
+                    <h4 class="hover-heading">HiveMind</h4>
+                    <ul class="hover-btns">
+                      <li><a class="open-gallery" href="assets/images/portfolio-hm.png"><i class="fa fa-arrows-alt"></i></a></li>
+                    </ul>
+                  </figcaption>
+                </figure>
+              </div><!-- / .portfolio-item -->
+
+              <div class="col-md-4 portfolio-item hover-bottom web">
+                <figure>
+                  <img src="assets/images/portfolio-mi.png" alt="Motivational Interviewing">
+                  <figcaption>
+                    <h4 class="hover-heading">MI (In Progress)</h4>
+                    <ul class="hover-btns">
+                      <li><a class="open-gallery" href="assets/images/portfolio-mi.png"><i class="fa fa-arrows-alt"></i></a></li>
+                    </ul>
+                  </figcaption>
+                </figure>
+              </div><!-- / .portfolio-item -->
+
+            </div><!-- / #pfolio -->
+          </div><!-- / .row -->
+
+        </div><!-- / .row -->
+
+        </section><!-- / .portfolio-columns-fw -->
+
+
+        <!-- ========== Cricle Counters - Parallax ========== -->
+
+        <div id="skillsCircles" class="circles-counters" style="background: url('assets/images/shattered.gif');">
+          <div class="container">
+            <div id="counters" class="row count-wrapper">
+
+              <!-- Item 1 -->
+              <div class="col-sm-6 col-lg-4 circle-item wow zoomIn" data-wow-duration=".6s" data-wow-delay=".3s">
+                <div class="chart" data-percent="75"><span class="circle-icon linea-basic-gear"></span></div>
+                <span class="circle-text">Web Development</span>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="col-sm-6 col-lg-4 circle-item wow zoomIn" data-wow-duration=".6s">
+                <div class="chart" data-percent="66"><span class="circle-icon linea-basic-display"></span></div>
+                <span class="circle-text">Web Design</span>
+              </div>
+
+              <!-- Item 3 -->
+              <div class="col-sm-6 col-lg-4 circle-item wow zoomIn" data-wow-duration=".6s" data-wow-delay=".3s">
+                <div class="chart" data-percent="60"><span class="circle-icon et-linegraph"></span></div>
+                <span class="circle-text">SEO</span>
+              </div>
+
+            </div><!-- / .row -->
+          </div><!-- / .container -->
+        </div><!-- / .circles-counters -->
 
         <!-- ========== Feature - Steps Numbers ========== -->
 
@@ -138,38 +269,6 @@
 
         </section><!-- / .container -->
 
-
-
-        <!-- ========== Cricle Counters - Parallax ========== -->
-
-        <div id="skillsCircles" class="circles-counters" style="background: url('assets/images/shattered.gif');">
-          <div class="container">
-            <div id="counters" class="row count-wrapper">
-
-              <!-- Item 1 -->
-              <div class="col-sm-6 col-lg-4 circle-item wow zoomIn" data-wow-duration=".6s" data-wow-delay=".3s">
-                <div class="chart" data-percent="75"><span class="circle-icon linea-basic-gear"></span></div>
-                <span class="circle-text">Web Development</span>
-              </div>
-
-              <!-- Item 2 -->
-              <div class="col-sm-6 col-lg-4 circle-item wow zoomIn" data-wow-duration=".6s">
-                <div class="chart" data-percent="66"><span class="circle-icon linea-basic-display"></span></div>
-                <span class="circle-text">Web Design</span>
-              </div>
-
-              <!-- Item 3 -->
-              <div class="col-sm-6 col-lg-4 circle-item wow zoomIn" data-wow-duration=".6s" data-wow-delay=".3s">
-                <div class="chart" data-percent="60"><span class="circle-icon et-linegraph"></span></div>
-                <span class="circle-text">SEO</span>
-              </div>
-
-            </div><!-- / .row -->
-          </div><!-- / .container -->
-        </div><!-- / .circles-counters -->
-
-
-
         <!-- ========== About - Freelancer Layout ========== -->
 
         <div class="gray-bg">
@@ -201,129 +300,16 @@
 
               <div class="col-lg-4 freelancer-about-content">
                 <h2 class="t1-heading">About me</h2>
-                <p>Web Developer based in New York pursuing a B.S. in Computer Science at the University of Rochester (2019)</p>
+                <p>Web Developer based in New York pursuing a B.S. in Computer Science at the University of Rochester</p>
                 <p>I built a website for a person and they liked it. That person had a friend who wanted a website and that person knew two more people...</p>
-                <p>That's how it all got started. </p>
-                <p>I use HTML / CSS / JavaScript for front-end work and PHP / MySQL for everything back-end.</p>
-                <p>Outside of programming, I like to snowboard, longboard and dabble in calligraphy.</p>
+                <p>I use HTML / CSS / JavaScript for front-end work and PHP / MySQL for everything back-end. I design wireframes and storyboards using Sketch and Flinto.</p>
+                <p>Outside of programming, I like to snowboard and longboard. Currently, I'm trying to unravel the mysteries of photography and lightroom.</p>
                 <br />
               </div>
 
             </div><!-- / .row -->
           </section><!-- / .container -->
         </div><!-- / .gray-bg -->
-
-        <!-- ========== Portfolio ========== -->
-
-        <section id="portfolio" class="container-fluid portfolio-layout portfolio-columns-fw">
-          <div class="row">
-            <header class="sec-heading">
-              <h2>Featured Projects</h2>
-              <span class="subheading">See some of the work I've done</span>
-            </header>
-
-          <!-- Filters -->
-          <div class="row">
-            <ul id="pfolio-filters" class="portfolio-filters">
-              <li class="active"><a href="#" data-filter="*">All</a></li>
-              <li><a href="#" data-filter=".webdesing">Websites</a></li>
-              <li><a href="#" data-filter=".print">Design</a></li>
-            </ul>
-          </div>
-
-          <div class="row">
-            <div id="pfolio">
-
-              <div class="col-md-4 portfolio-item hover-bottom webdesing">
-                <figure>
-                  <img src="assets/images/portfolio-ss.png" alt="SportStrata">
-                  <figcaption>
-                    <h4 class="hover-heading">SportStrata</h4>
-                    <ul class="hover-btns">
-                      <li><a class="open-gallery" href="assets/images/portfolio-ss.png"><i class="fa fa-arrows-alt"></i></a></li>
-                      <li><a href="portfolio-ss.php"><i class="fa fa-share"></i></a></li>
-                    </ul>
-                  </figcaption>
-                </figure>
-              </div><!-- / .portfolio-item -->
-
-              <div class="col-md-4 portfolio-item hover-bottom webdesing">
-                <figure>
-                  <img src="assets/images/portfolio-gc.png" alt="Guntur Cabinetry">
-                  <figcaption>
-                    <h4 class="hover-heading">Guntur Cabinetry</h4>
-                    <ul class="hover-btns">
-                      <li><a class="open-gallery" href="assets/images/portfolio-gc.png"><i class="fa fa-arrows-alt"></i></a></li>
-                      <li><a href="pages/portfolio/portfolio-single-1.html"><i class="fa fa-share"></i></a></li>
-                    </ul>
-                  </figcaption>
-                </figure>
-              </div><!-- / .portfolio-item -->
-
-              <div class="col-md-4 portfolio-item hover-bottom print">
-                <figure>
-                  <img src="assets/images/portfolio-spi.png" alt="Songbox App Design">
-                  <figcaption>
-                    <h4 class="hover-heading">SongBox Design</h4>
-                    <ul class="hover-btns">
-                      <li><a class="open-gallery" href="assets/images/portfolio-spi.png"><i class="fa fa-arrows-alt"></i></a></li>
-                      <li><a href="pages/portfolio/portfolio-single-1.html"><i class="fa fa-share"></i></a></li>
-                    </ul>
-                  </figcaption>
-                </figure>
-              </div><!-- / .portfolio-item -->
-
-              <div class="col-md-4 portfolio-item hover-bottom webdesing">
-                <figure>
-                  <img src="assets/images/portfolio-sa.png" alt="University of Rochester - Student's Association">
-                  <figcaption>
-                    <h4 class="hover-heading">Student's Association</h4>
-                    <ul class="hover-btns">
-                      <li><a class="open-gallery" href="assets/images/portfolio-sa.png"><i class="fa fa-arrows-alt"></i></a></li>
-                      <li><a href="pages/portfolio/portfolio-single-1.html"><i class="fa fa-share"></i></a></li>
-                    </ul>
-                  </figcaption>
-                </figure>
-              </div><!-- / .portfolio-item -->
-
-              <div class="col-md-4 portfolio-item hover-bottom webdesing">
-                <figure>
-                  <img src="assets/images/portfolio-hm.png" alt="HiveMind">
-                  <figcaption>
-                    <h4 class="hover-heading">HiveMind</h4>
-                    <ul class="hover-btns">
-                      <li><a class="open-gallery" href="assets/images/portfolio-hm.png"><i class="fa fa-arrows-alt"></i></a></li>
-                      <li><a href="pages/portfolio/portfolio-single-1.html"><i class="fa fa-share"></i></a></li>
-                    </ul>
-                  </figcaption>
-                </figure>
-              </div><!-- / .portfolio-item -->
-
-              <div class="col-md-4 portfolio-item hover-bottom webdesing">
-                <figure>
-                  <img src="assets/images/portfolio-mi.png" alt="Motivational Interviewing">
-                  <figcaption>
-                    <h4 class="hover-heading">MI (In Progress)</h4>
-                    <ul class="hover-btns">
-                      <li><a class="open-gallery" href="assets/images/portfolio-mi.png"><i class="fa fa-arrows-alt"></i></a></li>
-                      <li><a href="pages/portfolio/portfolio-single-1.html"><i class="fa fa-share"></i></a></li>
-                    </ul>
-                  </figcaption>
-                </figure>
-              </div><!-- / .portfolio-item -->
-
-            </div><!-- / #pfolio -->
-          </div><!-- / .row -->
-
-          <!-- CTA Button -->
-          <div class="row ws-m" style="margin-top: 2em;">
-            <div class="text-center">
-              <a href="project.php" class="btn">View All Projects</a>
-            </div>
-          </div><!-- / .row -->
-        </div><!-- / .row -->
-
-        </section><!-- / .portfolio-columns-fw -->
 
         <!-- ========== Blog Preview ========== -->
 

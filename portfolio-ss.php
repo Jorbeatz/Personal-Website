@@ -95,9 +95,8 @@
 
               <nav>
                 <ul class="nav-btns">
-                  <li class="prev"><a href="#"><span class="nav-icon linea-arrows-slim-left"></span>  prev project</a></li>
-                  <li class="all"><a href="portfolio-fw-3col.html"><span class="nav-icon linea-arrows-squares"></span></a></li>
-                  <li class="next"><a href="#">next project <span class="nav-icon linea-arrows-slim-right"></span></a></li>
+                  <li class="prev"><a href="portfolio-sa.php"><span class="nav-icon linea-arrows-slim-left"></span>  prev project</a></li>
+                  <li class="next"><a href="portfolio-gc.php">next project <span class="nav-icon linea-arrows-slim-right"></span></a></li>
                 </ul>
               </nav>
 
@@ -114,23 +113,23 @@
 
         <!-- ========== Scripts ========== -->
 
-        <script src="../../assets/js/vendor/jquery-2.1.4.min.js"></script>
-        <script src="../../assets/js/vendor/google-fonts.js"></script>
-        <script src="../../assets/js/vendor/jquery.easing.js"></script>
-        <script src="../../assets/js/vendor/jquery.waypoints.min.js"></script>
-        <script src="../../assets/js/vendor/bootstrap.min.js"></script>
-        <script src="../../assets/js/vendor/bootstrap-hover-dropdown.min.js"></script>
-        <script src="../../assets/js/vendor/smoothscroll.js"></script>
-        <script src="../../assets/js/vendor/jquery.localScroll.min.js"></script>
-        <script src="../../assets/js/vendor/jquery.scrollTo.min.js"></script>
-        <script src="../../assets/js/vendor/jquery.stellar.min.js"></script>
-        <script src="../../assets/js/vendor/jquery.parallax.js"></script>
-        <script src="../../assets/js/vendor/slick.min.js"></script>
-        <script src="../../assets/js/vendor/jquery.easypiechart.min.js"></script>
-        <script src="../../assets/js/vendor/countup.min.js"></script>
-        <script src="../../assets/js/vendor/isotope.min.js"></script>
-        <script src="../../assets/js/vendor/jquery.magnific-popup.min.js"></script>
-        <script src="../../assets/js/vendor/wow.min.js"></script>
+        <script src="assets/js/vendor/jquery-2.1.4.min.js"></script>
+        <script src="assets/js/vendor/google-fonts.js"></script>
+        <script src="assets/js/vendor/jquery.easing.js"></script>
+        <script src="assets/js/vendor/jquery.waypoints.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+        <script src="assets/js/vendor/bootstrap-hover-dropdown.min.js"></script>
+        <script src="assets/js/vendor/smoothscroll.js"></script>
+        <script src="assets/js/vendor/jquery.localScroll.min.js"></script>
+        <script src="assets/js/vendor/jquery.scrollTo.min.js"></script>
+        <script src="assets/js/vendor/jquery.stellar.min.js"></script>
+        <script src="assets/js/vendor/jquery.parallax.js"></script>
+        <script src="assets/js/vendor/slick.min.js"></script>
+        <script src="assets/js/vendor/jquery.easypiechart.min.js"></script>
+        <script src="assets/js/vendor/countup.min.js"></script>
+        <script src="assets/js/vendor/isotope.min.js"></script>
+        <script src="assets/js/vendor/jquery.magnific-popup.min.js"></script>
+        <script src="assets/js/vendor/wow.min.js"></script>
 
         <!-- Definity JS -->
         <script src="../../assets/js/main.js"></script>
