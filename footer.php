@@ -42,9 +42,6 @@
 
         <ul>
           <li><a href="https://www.linkedin.com/in/jordyguntur/">Linkedin</a></li>
-          <li><a href="https://www.instagram.com/jordy.guntur/">Instagram</a></li>
-          <li><a href="https://designity.com/profiles/2124">Designity</a></li>
-          <li><a href="https://www.upwork.com/o/profiles/users/_~01143d917f2f631652/">Upwork</a></li>
 
         </ul>
 

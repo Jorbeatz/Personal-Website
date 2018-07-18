@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Jordy Guntur | Web Developer</title>
+        <title>Jordy Guntur | Software Engineer</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -31,7 +31,7 @@
             <div class="hero-content-wrapper">
               <div class="hero-content">
 
-                <h4 class="h-alt hero-subheading wow fadeIn" data-wow-duration="2s" data-wow-delay=".7s">Web Designer & Developer</h4>
+                <h4 class="h-alt hero-subheading wow fadeIn" data-wow-duration="2s" data-wow-delay=".7s">Software Engineer</h4>
                 <h1 class="hero-lead wow fadeInUp" data-wow-duration="1.5s">Jordy Guntur</h1>
                 <a href="contact.php" class="btn btn-light btn-small wow fadeIn" data-wow-duration="2s" data-wow-delay="1s">Schedule Project</a>
                 <div class="" style="margin: 5px;">
@@ -76,8 +76,8 @@
               <div class="col-lg-4 col-md-6 mb-sm-50">
                 <div class="ft-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s" style="min-height: 440px;">
                   <span class="linea-basic-gear"></span>
-                  <h4>Website Development</h4>
-                  <p>Convert the site design into a responsive, search engine and mobile-friendly website. Build features such as e-commerce, custom CMS, and subscription forms.</p>
+                  <h4>Full Stack Development</h4>
+                  <p>Convert designs into responsive, search engine and mobile-friendly applications. Build features such as e-commerce, custom CMS, and subscriptions.</p>
                 </div>
               </div>
 
@@ -107,7 +107,7 @@
           <div class="row">
             <ul id="pfolio-filters" class="portfolio-filters">
               <li class="active"><a href="#" data-filter="*">All</a></li>
-              <li><a href="#" data-filter=".web">Websites</a></li>
+              <li><a href="#" data-filter=".web">Development</a></li>
               <li><a href="#" data-filter=".design">Design</a></li>
             </ul>
           </div>
@@ -156,6 +156,48 @@
 
               <div class="col-md-4 portfolio-item hover-bottom web">
                 <figure>
+                  <img src="assets/images/portfolio-gc-2.png" alt="Guntur Cabinetry">
+                  <figcaption>
+                    <h4 class="hover-heading">Guntur Cabinetry V2</h4>
+                    <ul class="hover-btns">
+                      <li><a class="open-gallery" href="assets/images/gc2/gc2-1.png"><i class="fa fa-arrows-alt"></i></a></li>
+                      <!-- todo: Add page for this ################################################################################################################### -->
+                      <li><a href=""><i class="fa fa-share"></i></a></li>
+                    </ul>
+                  </figcaption>
+                </figure>
+              </div><!-- / .portfolio-item -->
+              
+              <div class="col-md-4 portfolio-item hover-bottom web">
+                <figure>
+                  <img src="assets/images/portfolio-sf.png" alt="Sutton Funding">
+                  <figcaption>
+                    <h4 class="hover-heading">Sutton Funding</h4>
+                    <ul class="hover-btns">
+                      <li><a class="open-gallery" href="assets/images/portfolio-sf.png"><i class="fa fa-arrows-alt"></i></a></li>
+                      <!-- todo: Add page for this ################################################################################################################### -->
+                      <li><a href=""><i class="fa fa-share"></i></a></li>
+                    </ul>
+                  </figcaption>
+                </figure>
+              </div><!-- / .portfolio-item -->
+
+              <div class="col-md-4 portfolio-item hover-bottom web">
+                <figure>
+                  <img src="assets/images/portfolio-repro.png" alt="Reproductive Psychiatry">
+                  <figcaption>
+                    <h4 class="hover-heading">USP Psychiatry</h4>
+                    <ul class="hover-btns">
+                      <li><a class="open-gallery" href="assets/images/portfolio-repro.png"><i class="fa fa-arrows-alt"></i></a></li>
+                      <!-- todo: Add page for this ################################################################################################################### -->
+                      <li><a href=""><i class="fa fa-share"></i></a></li>
+                    </ul>
+                  </figcaption>
+                </figure>
+              </div><!-- / .portfolio-item -->
+
+              <div class="col-md-4 portfolio-item hover-bottom web">
+                <figure>
                   <img src="assets/images/portfolio-sa.png" alt="University of Rochester - Student's Association">
                   <figcaption>
                     <h4 class="hover-heading">Student's Association</h4>
@@ -169,9 +211,48 @@
 
               <div class="col-md-4 portfolio-item hover-bottom web">
                 <figure>
+                  <img src="assets/images/portfolio-indec.png" alt="Indecision App React Redux">
+                  <figcaption>
+                    <h4 class="hover-heading">Indecision App (React & Redux)</h4>
+                    <ul class="hover-btns">
+                      <li><a class="open-gallery" href="assets/images/portfolio-indec.png"><i class="fa fa-arrows-alt"></i></a></li>
+                      <li><a href=""><i class="fa fa-share"></i></a></li>
+                    </ul>
+                  </figcaption>
+                </figure>
+              </div><!-- / .portfolio-item -->
+
+              <div class="col-md-4 portfolio-item hover-bottom web">
+                <figure>
+                  <img src="assets/images/portfolio-lucy.png" alt="Lucy Website">
+                  <figcaption>
+                    <h4 class="hover-heading">Lucy Personal Site</h4>
+                    <ul class="hover-btns">
+                      <li><a class="open-gallery" href="assets/images/portfolio-lucy.png"><i class="fa fa-arrows-alt"></i></a></li>
+                      <li><a href=""><i class="fa fa-share"></i></a></li>
+                    </ul>
+                  </figcaption>
+                </figure>
+              </div><!-- / .portfolio-item -->
+
+              <div class="col-md-4 portfolio-item hover-bottom web">
+                <figure>
+                  <img src="assets/images/portfolio-hc.png" alt="Startup Anonymous">
+                  <figcaption>
+                    <h4 class="hover-heading">Anonymous Startup</h4>
+                    <ul class="hover-btns">
+                      <li><a class="open-gallery" href="assets/images/portfolio-hc.png"><i class="fa fa-arrows-alt"></i></a></li>
+                      <li><a href=""><i class="fa fa-share"></i></a></li>
+                    </ul>
+                  </figcaption>
+                </figure>
+              </div><!-- / .portfolio-item -->
+
+              <div class="col-md-4 portfolio-item hover-bottom web">
+                <figure>
                   <img src="assets/images/portfolio-hm.png" alt="HiveMind">
                   <figcaption>
-                    <h4 class="hover-heading">HiveMind</h4>
+                    <h4 class="hover-heading">HiveMind (Django / Python)</h4>
                     <ul class="hover-btns">
                       <li><a class="open-gallery" href="assets/images/portfolio-hm.png"><i class="fa fa-arrows-alt"></i></a></li>
                     </ul>
@@ -208,13 +289,13 @@
               <!-- Item 1 -->
               <div class="col-sm-6 col-lg-4 circle-item wow zoomIn" data-wow-duration=".6s" data-wow-delay=".3s">
                 <div class="chart" data-percent="75"><span class="circle-icon linea-basic-gear"></span></div>
-                <span class="circle-text">Web Development</span>
+                <span class="circle-text">Development</span>
               </div>
 
               <!-- Item 2 -->
               <div class="col-sm-6 col-lg-4 circle-item wow zoomIn" data-wow-duration=".6s">
                 <div class="chart" data-percent="66"><span class="circle-icon linea-basic-display"></span></div>
-                <span class="circle-text">Web Design</span>
+                <span class="circle-text">Design</span>
               </div>
 
               <!-- Item 3 -->
@@ -281,17 +362,15 @@
 
                   <!-- Image -->
                   <div class="t-image">
-                    <img src="assets/images/bio-pic.png" alt="Jordy Guntur" class="img-responsive">
+                    <img src="assets/images/bio-pic2.png" alt="Jordy Guntur" class="img-responsive">
                   </div>
 
                   <!-- Info -->
                   <div class="t-info">
                     <h4 class="t-name">Jordy Guntur</h4>
-                    <span class="t-role">Web Developer</span>
+                    <span class="t-role">Software Engineer</span>
                     <ul class="social-links">
-                      <li><a href="https://www.facebook.com/jordy.guntur.3"><i class="fa fa-facebook"></i></a></li>
                       <li><a href="https://www.linkedin.com/in/jordyguntur/"><i class="fa fa-linkedin"></i></a></li>
-                      <li><a href="https://www.instagram.com/jordy.guntur/"><i class="fa fa-instagram"></i></a></li>
                     </ul>
                   </div>
 
