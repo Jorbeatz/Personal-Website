@@ -161,8 +161,7 @@
                     <h4 class="hover-heading">Guntur Cabinetry V2</h4>
                     <ul class="hover-btns">
                       <li><a class="open-gallery" href="assets/images/gc2/gc2-1.png"><i class="fa fa-arrows-alt"></i></a></li>
-                      <!-- todo: Add page for this ################################################################################################################### -->
-                      <li><a href=""><i class="fa fa-share"></i></a></li>
+                      <li><a href="portfolio-gc-2.php"><i class="fa fa-share"></i></a></li>
                     </ul>
                   </figcaption>
                 </figure>
@@ -379,10 +378,10 @@
 
               <div class="col-lg-4 freelancer-about-content">
                 <h2 class="t1-heading">About me</h2>
-                <p>Web Developer based in New York pursuing a B.S. in Computer Science at the University of Rochester</p>
-                <p>I built a website for a person and they liked it. That person had a friend who wanted a website and that person knew two more people...</p>
-                <p>I use HTML / CSS / JavaScript for front-end work and PHP / MySQL for everything back-end. I design wireframes and storyboards using Sketch and Flinto.</p>
-                <p>Outside of programming, I like to snowboard and longboard. Currently, I'm trying to unravel the mysteries of photography and lightroom.</p>
+                <p>Caffeine dependent software engineer based in New York. Rising senior at the University of Rochester studying computer science.</p>
+                <p>I like building things that help other people meet their goals. Whether it's an web app, mobile app, program or service - I'm game.</p>
+                <p>Outside of work, I enjoy cooking, snowboarding, longboarding, working out and occasionally dabbling in caliligraphy.</p>
+                <p>Let me know if you want to go out for coffee :)</p>
                 <br />
               </div>
 

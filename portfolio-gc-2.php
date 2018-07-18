@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>SportStrata | Jordy Guntur</title>
+        <title>Guntur Cabinetry V2 | Jordy Guntur</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -25,12 +25,12 @@
               <div class="row">
 
                 <div class="col-sm-6">
-                  <h1>SportStrata</h1>
-                  <span class="subheading">Web Application</span>
+                  <h1>Guntur Cabinetry V2</h1>
+                  <span class="subheading">Website Project</span>
                 </div>
                 <ol class="col-sm-6 text-right breadcrumb">
                   <li><a href="index.php">Home</a></li>
-                  <li class="active">Portfolio - SportStrata</li>
+                  <li class="active">Portfolio - Guntur Cabinetry</li>
                 </ol>
 
               </div>
@@ -46,24 +46,24 @@
 
             <!-- Project Info -->
             <div class="col-md-3 mb-sm-50 project-info">
-              <h5>SportStrata</h5>
+              <h5>Guntur Cabinetry</h5>
               <ul>
-                <li><h6>Date:</h6><span>07/27/17</span></li>
-                <li><h6>Link:</h6><a href="http://sportstrata.com">http://sportstrata.com</a></li>
-                <li><h6>Type:</h6><span>Web Design, Front-End, Back-End, Server, SEO</span></li>
+                <li><h6>Date:</h6><span>04/20/18</span></li>
+                <li><h6>Link:</h6><a href="http://gunturcabinetry.com">http://gunturcabinetry.com</a></li>
+                <li><h6>Type:</h6><span>Web Development</span></li>
               </ul>
             </div>
 
             <!-- Challenge -->
             <div class="col-md-offset-1 col-md-4 mb-sm-50">
               <h5 class="h-alt">The challenge</h5>
-              <p>Redesign and rebuild the SportStrata company website. Develop a <strong>custom content management system</strong> with encrypted login/registration, book an appointment feature, handle users, blogs, categories, optimize for SEO and include a shopping cart. </p>
+              <p>Redesign and rebuild the website for a fresh new look. The main point is to showcase pictures of completed projects.</p>
             </div>
 
             <!-- Solution -->
             <div class="col-md-4">
               <h5 class="h-alt">The solution</h5>
-              <p>Research and design website with Sketch. Develop the front-end with HTML/CSS/JS - restructuring with feedback. Optimize for SEO. <strong>Develop back-end system with PHP/MySQL and payments with Stripe API. </strong></p>
+              <p>Rebuild the website with a new look that still shows photos of completed works. Easy Part 2.</p>
             </div>
 
           </div><!-- / .row -->
@@ -72,14 +72,9 @@
           <div class="row">
             <div class="col-md-12">
               <ul class="single-img-slider">
-                <li><img src="assets/images/ss/ss-1.png" alt="SportStrata Homepage"></li>
-                <li><img src="assets/images/ss/ss-2.png" alt="SportStrata Homepage-2"></li>
-                <li><img src="assets/images/ss/ss-3.png" alt="SportStrata Book an appointment"></li>
-                <li><img src="assets/images/ss/ss-4.png" alt="SportStrata Team page"></li>
-                <li><img src="assets/images/ss/ss-5.png" alt="SportStrata Contact page"></li>
-                <li><img src="assets/images/ss/ss-6.png" alt="SportStrata Login"></li>
-                <li><img src="assets/images/ss/ss-7.png" alt="SportStrata Dashboard"></li>
-                <li><img src="assets/images/ss/ss-8.png" alt="SportStrata Blog"></li>
+                <li><img src="assets/images/gc2/gc-1.png" alt="Guntur Cabinetry Homepage"></li>
+                <li><img src="assets/images/gc2/gc-2.png" alt="Guntur Cabinetry Homepage-2"></li>
+                <li><img src="assets/images/gc2/gc-3.png" alt="Guntur Cabinetry Homepage-3"></li>
               </ul>
             </div>
           </div><!-- / .row -->
@@ -95,8 +90,8 @@
 
               <nav>
                 <ul class="nav-btns">
-                  <li class="prev"><a href="portfolio-sa.php"><span class="nav-icon linea-arrows-slim-left"></span>  prev project</a></li>
-                  <li class="next"><a href="portfolio-gc.php">next project <span class="nav-icon linea-arrows-slim-right"></span></a></li>
+                  <li class="prev"><a href="portfolio-ss.php"><span class="nav-icon linea-arrows-slim-left"></span>  prev project</a></li>
+                  <li class="next"><a href="portfolio-sb.php">next project <span class="nav-icon linea-arrows-slim-right"></span></a></li>
                 </ul>
               </nav>
 

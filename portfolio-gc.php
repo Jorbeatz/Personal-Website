@@ -57,7 +57,7 @@
             <!-- Challenge -->
             <div class="col-md-offset-1 col-md-4 mb-sm-50">
               <h5 class="h-alt">The challenge</h5>
-              <p>Design and build a website for the family business. The main point is to show pictures of completed projects and to show the user some possible.</p>
+              <p>Design and build a website for the family business. The main point is to show pictures of completed projects and to show the user example work.</p>
             </div>
 
             <!-- Solution -->

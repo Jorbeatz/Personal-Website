@@ -26,7 +26,7 @@
 
                 <div class="col-sm-6">
                   <h1>SA</h1>
-                  <span class="subheading">Website Project</span>
+                  <span class="subheading">Web Application</span>
                 </div>
                 <ol class="col-sm-6 text-right breadcrumb">
                   <li><a href="index.php">Home</a></li>
@@ -62,7 +62,7 @@
             <!-- Solution -->
             <div class="col-md-4">
               <h5 class="h-alt">The solution</h5>
-              <p>Build a custom CMS, login/registration in PHP/MySQL and the rest of the front end using a Material Design Bootstrap Kit.</p>
+              <p>Build a <strong>custom CMS, login/registration in PHP/MySQL</strong> and the rest of the front end using a Material Design Bootstrap Kit.</p>
               <p>Note: Redesign/redo of website in the works</p>
             </div>
 

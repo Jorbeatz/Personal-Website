@@ -62,7 +62,7 @@
             <!-- Solution -->
             <div class="col-md-4">
               <h5 class="h-alt">The solution</h5>
-              <p>Learn how to use Sketch and go through hundreds of different app designs on Behance before planning and building each screen on Sketch.</p>
+              <p>Learn how to use Sketch and go through hundreds of different app designs on Behance before planning and designing each screen on <strong>Sketch.</strong></p>
             </div>
 
           </div><!-- / .row -->
