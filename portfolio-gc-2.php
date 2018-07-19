@@ -90,8 +90,8 @@
 
               <nav>
                 <ul class="nav-btns">
-                  <li class="prev"><a href="portfolio-ss.php"><span class="nav-icon linea-arrows-slim-left"></span>  prev project</a></li>
-                  <li class="next"><a href="portfolio-sb.php">next project <span class="nav-icon linea-arrows-slim-right"></span></a></li>
+                  <li class="prev"><a href="portfolio-sb.php"><span class="nav-icon linea-arrows-slim-left"></span>  prev project</a></li>
+                  <li class="next"><a href="portfolio-sf.php">next project <span class="nav-icon linea-arrows-slim-right"></span></a></li>
                 </ul>
               </nav>
 

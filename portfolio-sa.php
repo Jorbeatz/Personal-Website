@@ -49,6 +49,7 @@
               <h5>SongBox</h5>
               <ul>
                 <li><h6>Date:</h6><span>02/15/17</span></li>
+                <li><h6>Link:</h6><a href="http://sa.rochester.edu/sa/">http://sa.rochester.edu/sa/</a></li>
                 <li><h6>Type:</h6><span>Web Development</span></li>
               </ul>
             </div>
@@ -91,9 +92,8 @@
 
               <nav>
                 <ul class="nav-btns">
-                  <li class="prev"><a href="portfolio-sb.php"><span class="nav-icon linea-arrows-slim-left"></span>  prev project</a></li>
-                  <li class="all"><a href="portfolio-fw-3col.html"><span class="nav-icon linea-arrows-squares"></span></a></li>
-                  <li class="next"><a href="portfolio-ss.php">next project <span class="nav-icon linea-arrows-slim-right"></span></a></li>
+                  <li class="prev"><a href="portfolio-py.php"><span class="nav-icon linea-arrows-slim-left"></span>  prev project</a></li>
+                  <li class="next"><a href="portfolio-indec.php">next project <span class="nav-icon linea-arrows-slim-right"></span></a></li>
                 </ul>
               </nav>
 

@@ -76,6 +76,7 @@
                 <li><img src="assets/images/sb/sb-4.png" alt="SongBox-4"></li>
                 <li><img src="assets/images/sb/sb-5.png" alt="SongBox-5"></li>
                 <li><img src="assets/images/sb/sb-3.png" alt="SongBox-3"></li>
+                <li><img src="assets/images/sb/sb-6.png" alt="SongBox-6"></li>
               </ul>
             </div>
           </div><!-- / .row -->
@@ -92,7 +93,7 @@
               <nav>
                 <ul class="nav-btns">
                   <li class="prev"><a href="portfolio-gc.php"><span class="nav-icon linea-arrows-slim-left"></span>  prev project</a></li>
-                  <li class="next"><a href="portfolio-sa.php">next project <span class="nav-icon linea-arrows-slim-right"></span></a></li>
+                  <li class="next"><a href="portfolio-gc-2.php">next project <span class="nav-icon linea-arrows-slim-right"></span></a></li>
                 </ul>
               </nav>
 

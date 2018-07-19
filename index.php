@@ -100,7 +100,7 @@
           <div class="row">
             <header class="sec-heading">
               <h2>Featured Projects</h2>
-              <span class="subheading">See some of the work I've done</span>
+              <span class="subheading">See some of the work I've done.</span>
             </header>
 
           <!-- Filters -->
@@ -122,7 +122,7 @@
                     <h4 class="hover-heading">SportStrata</h4>
                     <ul class="hover-btns">
                       <li><a class="open-gallery" href="assets/images/portfolio-ss.png"><i class="fa fa-arrows-alt"></i></a></li>
-                      <li><a href="portfolio-ss.php"><i class="fa fa-share"></i></a></li>
+                      <li><a href="portfolio-ss.php"><i class="fa fa-share"></i> Read More</a></li>
                     </ul>
                   </figcaption>
                 </figure>
@@ -135,7 +135,7 @@
                     <h4 class="hover-heading">Guntur Cabinetry</h4>
                     <ul class="hover-btns">
                       <li><a class="open-gallery" href="assets/images/portfolio-gc.png"><i class="fa fa-arrows-alt"></i></a></li>
-                      <li><a href="portfolio-gc.php"><i class="fa fa-share"></i></a></li>
+                      <li><a href="portfolio-gc.php"><i class="fa fa-share"></i> Read More</a></li>
                     </ul>
                   </figcaption>
                 </figure>
@@ -148,7 +148,7 @@
                     <h4 class="hover-heading">SongBox Design</h4>
                     <ul class="hover-btns">
                       <li><a class="open-gallery" href="assets/images/portfolio-spi.png"><i class="fa fa-arrows-alt"></i></a></li>
-                      <li><a href="portfolio-sb.php"><i class="fa fa-share"></i></a></li>
+                      <li><a href="portfolio-sb.php"><i class="fa fa-share"></i> Read More</a></li>
                     </ul>
                   </figcaption>
                 </figure>
@@ -161,7 +161,7 @@
                     <h4 class="hover-heading">Guntur Cabinetry V2</h4>
                     <ul class="hover-btns">
                       <li><a class="open-gallery" href="assets/images/gc2/gc2-1.png"><i class="fa fa-arrows-alt"></i></a></li>
-                      <li><a href="portfolio-gc-2.php"><i class="fa fa-share"></i></a></li>
+                      <li><a href="portfolio-gc-2.php"><i class="fa fa-share"></i> Read More</a></li>
                     </ul>
                   </figcaption>
                 </figure>
@@ -174,8 +174,7 @@
                     <h4 class="hover-heading">Sutton Funding</h4>
                     <ul class="hover-btns">
                       <li><a class="open-gallery" href="assets/images/portfolio-sf.png"><i class="fa fa-arrows-alt"></i></a></li>
-                      <!-- todo: Add page for this ################################################################################################################### -->
-                      <li><a href=""><i class="fa fa-share"></i></a></li>
+                      <li><a href="portfolio-sf.php"><i class="fa fa-share"></i> Read More</a></li>
                     </ul>
                   </figcaption>
                 </figure>
@@ -188,8 +187,7 @@
                     <h4 class="hover-heading">USP Psychiatry</h4>
                     <ul class="hover-btns">
                       <li><a class="open-gallery" href="assets/images/portfolio-repro.png"><i class="fa fa-arrows-alt"></i></a></li>
-                      <!-- todo: Add page for this ################################################################################################################### -->
-                      <li><a href=""><i class="fa fa-share"></i></a></li>
+                      <li><a href="portfolio-py.php"><i class="fa fa-share"></i> Read More</a></li>
                     </ul>
                   </figcaption>
                 </figure>
@@ -202,7 +200,7 @@
                     <h4 class="hover-heading">Student's Association</h4>
                     <ul class="hover-btns">
                       <li><a class="open-gallery" href="assets/images/portfolio-sa.png"><i class="fa fa-arrows-alt"></i></a></li>
-                      <li><a href="portfolio-sa.php"><i class="fa fa-share"></i></a></li>
+                      <li><a href="portfolio-sa.php"><i class="fa fa-share"></i> Read More</a></li>
                     </ul>
                   </figcaption>
                 </figure>
@@ -215,7 +213,7 @@
                     <h4 class="hover-heading">Indecision App (React & Redux)</h4>
                     <ul class="hover-btns">
                       <li><a class="open-gallery" href="assets/images/portfolio-indec.png"><i class="fa fa-arrows-alt"></i></a></li>
-                      <li><a href=""><i class="fa fa-share"></i></a></li>
+                      <li><a href="portfolio-indec.php"><i class="fa fa-share"></i> Read More</a></li>
                     </ul>
                   </figcaption>
                 </figure>
@@ -228,7 +226,7 @@
                     <h4 class="hover-heading">Lucy Personal Site</h4>
                     <ul class="hover-btns">
                       <li><a class="open-gallery" href="assets/images/portfolio-lucy.png"><i class="fa fa-arrows-alt"></i></a></li>
-                      <li><a href=""><i class="fa fa-share"></i></a></li>
+                      <li><a href="portfolio-lucy.php"><i class="fa fa-share"></i> Read More</a></li>
                     </ul>
                   </figcaption>
                 </figure>
@@ -241,7 +239,6 @@
                     <h4 class="hover-heading">Anonymous Startup</h4>
                     <ul class="hover-btns">
                       <li><a class="open-gallery" href="assets/images/portfolio-hc.png"><i class="fa fa-arrows-alt"></i></a></li>
-                      <li><a href=""><i class="fa fa-share"></i></a></li>
                     </ul>
                   </figcaption>
                 </figure>
